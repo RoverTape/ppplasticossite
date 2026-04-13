@@ -295,6 +295,28 @@ nav a.ativo {
   color: var(--laranja);
 }
 
+/* Badge produto brasileiro no hero */
+.hero-badge {
+  position: absolute;
+  bottom: 32px;
+  right: 40px;
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  z-index: 3;
+  opacity: 0.92;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5));
+}
+
+@media (max-width: 768px) {
+  .hero-badge {
+    width: 78px;
+    height: 78px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
 /* =============================================
    BARRA DE STATS (abaixo do hero)
    ============================================= */
